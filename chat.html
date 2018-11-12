@@ -1,0 +1,62 @@
+<Html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="chat.css">
+</head>
+
+<body>
+    <div id="form1">
+        <div id="box">
+            <div id="add">
+                <button type="button" id="btadd" onclick="add()">
+                    <span class="glyphicon glyphicon-plus"> </span>
+                </button>
+                <input type="text" id="textadduser" placeholder="add name">
+            </div>
+            <div id="search">
+                <button type="button" id="btsearch">
+                    <span class="glyphicon glyphicon-search"> </span>
+                </button>
+                <input type="text" id="textsearch" placeholder="Search for names..">
+            </div>
+            <div id="exit">
+                <button type="button" id="btexit">
+                    <span class="glyphicon glyphicon-off"> </span>
+                </button>
+            </div>
+        </div>
+        <div id="list_user">
+
+        </div>
+        <div id="list_group"></div>
+    </div>
+    <div id="form2">
+        <div id="name_header"></div>
+        <div id="form_chat">
+            <div id="show_mess">
+            </div>
+            <div id="mess">
+                <input type="text" id="text" placeholder="Type a message">
+                <button type="button" id="btsend" class="glyphicon glyphicon-send" onclick="send()">
+                    <button type="button" id="btrec" class="glyphicon glyphicon-open" onclick="receive()">
+
+            </div>
+        </div>
+    </div>
+    <!--Add name user-->
+    <script src="./js/adduser.js"></script>
+    <!-- gui tin nhan-->
+    <script src="./js/sendmess.js"></script>
+    <!--thay doi kich thuoc giao dien khi thay doi man hinh -->
+    <script src="./js/kichthuocwin.js"></script>
+    <script src="./js/searchname.js"></script>
+</body>
+
+</Html>

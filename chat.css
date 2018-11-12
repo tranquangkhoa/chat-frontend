@@ -1,0 +1,174 @@
+body{
+    width: 95%;
+    height: 95%;
+    padding: 1%;
+    border: 1px seagreen;
+}
+#form1{
+    width: 15%;
+    height: 100%;
+    border: 1px solid blue;
+    float: left;
+}
+.glyphicon glyphicon-plus{
+    text-align: center;
+}
+#box{
+    width: 100%;
+    height: 15%;
+    background-color: aquamarine;
+}
+#list_user{
+    overflow:auto; 
+    border:1px solid #ACD8F0;
+    width: 100%;
+    height: 45%;
+    word-wrap: break-word;
+}
+#user:hover{
+    background-color: yellow;
+    border: none;
+}
+#list_group{
+    overflow:auto; 
+    border:1px solid #ACD8F0;
+    width: 100%;
+    height: 40%;
+    word-wrap: break-word;
+}
+#add{
+    width: 100%;
+    height: 35%;
+}
+#btadd{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#textadduser{
+    width: 79%;
+    height: 100%;
+    float: right;
+}
+#search{
+    width: 100%;
+    height: 35%;
+}
+#btsearch{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#textsearch{
+    width: 79%;
+    height: 100%;
+    float: right;
+}
+#user{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color:aqua; 
+    margin-top:2%; 
+}
+/* form 1*/
+
+#form2{
+    width: 84%;
+    height: 100%;
+    background-color: aquamarine;
+    float:right;
+}
+#name_header{
+    width: 100%;
+    height: 15%;
+    border:1px solid black;
+    word-wrap: break-word;
+}
+#form_chat{
+    width: 100%;
+    height: 85%;
+    border:1px solid blue;
+}
+#show_mess{
+    width:100%;
+    height:80%;
+    border:1px solid #ACD8F0;
+
+    background-color: white;
+    overflow:  auto;
+    -webkit-overflow-scrolling: touch;
+}
+#mess{
+    width:100%;
+    height:20%;
+}
+#text{
+    width:85%;
+    height:100%;
+}
+/* css hien thi tin nhan moi*/
+#form_nhan{
+    width: 100%;
+    padding: 1%;
+    margin: 1%;
+    float: left;
+}
+#form_avatar_nhan{
+    width:15%;
+    height: auto;
+    float: left;
+}
+#form_mess_nhan{
+float: left;
+padding-left:1%; 
+width: 50%;
+height: auto;
+border-radius: 10px; 
+background-color:gray;
+color: #fff;
+word-wrap: break-word;
+text-align:left;
+}
+
+
+#form_gui{
+    
+    padding: 1%;
+    margin: 1%;
+    float:right;
+    width: 100%;
+    overflow: auto;
+    
+}
+#form_avatar_gui{
+    float: right;
+    width:15%;
+    height: auto;
+    }
+#form_mess_gui{
+        float:right;
+        text-align:right;
+        padding-right: 1%;
+        border-radius: 10px; 
+        background-color: #05728f;
+        color: #fff;
+        width: 50%;
+        height:auto;
+        word-wrap: break-word; /*tu dong xuong dong, tranh tran div */
+       
+       
+    }
+#img_nhan{
+       
+        float:left;
+        width:40%;
+    }
+#img_gui{
+       
+        float:right;
+        width:40%;
+    }
+#btsend{
+    width: 10%;
+}
